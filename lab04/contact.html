@@ -19,15 +19,12 @@
             <label for="email">Email</label><br>
             <input type="text" id="email" name="email"><br>
 
-            <p>Subject</p>
-            <label for="job">Job Opportunity</label>
-            <input type="radio" name="regarding" id="job"><br>
-            <label for="followup">Follow Up</label>
-            <input type="radio" name="regarding" id="followup"><br>
-            <label for="knowyou">Getting to know you</label>
-            <input type="radio" name="regarding" id="knowyou"><br>
-            <label for="other">Other</label>
-            <input type="radio" name="regarding" id="other"><br>
+            <label for="subject">Subject</label>
+            <select id="subject" name="subject">
+                <option value="job">Job Opportunity</option>
+                <option value="knowyou">Getting to know you</option>
+                <option value="other">Other</option><br>
+            </select><br>
 
             <label for="message">Message</label><br>
             <textarea name="message" id="message"></textarea><br>
