@@ -1,0 +1,12 @@
+body {
+    background-color:ivory;
+}
+
+p {color:tan;}
+
+.boldred {
+    color:red;
+    font-weight: bold;
+}
+
+/* no html allowed here */
