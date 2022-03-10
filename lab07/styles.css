@@ -1,0 +1,12 @@
+nav {background-color: #FFFFFF;
+    padding: 10px;
+    margin-bottom: 30px;}
+nav a {color: #F2CD84;}
+nav a:hover {background-color: #FFF3CE;}
+
+body {font-family: Helvetica, sans-serif;
+    color: #846855;
+    background-color: #F4EDE4;}
+a {color: #6CA3C4}
+
+h1, h2 {color:#4B3C32}
