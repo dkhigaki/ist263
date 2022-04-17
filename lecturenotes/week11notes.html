@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /*
+        Skip to contect
+        1. html link that says skip to content
+        2. nest an anchor
+        3. style my skip to content
+        4. hide and show it (positionist)
+        */
+        #skip { /* # sign means looking for tag with id or skip */
+            position: absolute;
+            left: -999px;
+            background-color: orange;
+        }
+        #skipfocus {
+            left: 10px;
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <!-- Tab index is an attribute. it changes the order the tab key selects links-->
+        <a href="#content">Skip to Content</a>
+        <a href="http://www.twitter.com">Twitter</a> |
+        <a href="index.html" tabindex="1">Home</a> |
+        <a href="skills.html" tabindex="2">Skills</a> |
+        <a href="contact.html" tabindex="3">Contact</a> |
+
+    </nav>
+    <!-- reading tags are about hierarchy-->
+    <h1>Accessibility</h1> <!-- only on -->
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sapiente fuga eum cum provident praesentium et expedita saepe est corrupti quibusdam voluptas beatae assumenda autem cupiditate harum, magnam, eius quia ducimus!</p>
+    <h2>Tab Other</h2>
+        <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Harum expedita accusamus dolores qui veritatis omnis laudantium provident vero, aliquam corrupti ex consequatur sapiente reiciendis. Ea tempora sint quasi officia temporibus.</p>
+
+    <h2>Semantic Tag</h2>
+    <h3>aside</h3>
+    <h3 id="content">article</h3>
+</body>
+</html>
