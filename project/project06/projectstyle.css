@@ -1,29 +1,30 @@
-body {font-family: Helvetica, sans-serif;
+body {font-family: 'Montserrat', sans-serif;
     color: #604332;
     background-color:#EDEDED;
     margin: 50px;
 }
-
-nav {
-    display: flex;
-    margin-left: 300px;
-    margin-right: 300px;
-    margin-top: 10px;
-    justify-content: space-evenly;
-    background-color: #98745C;
+nav {background-color: #98745C;
     padding: 10px;
-    color: #ffffff;
+    margin-bottom: 30px;
+    text-align: center;
     border-radius: .5em;
+    color: #ffffff;
 }
-nav a {
-    color:#ffffff;
-}
+    
+nav a {color: #ffffff;}
+nav a:hover {background-color: #8ba7e0;}
+a {color:#526690}
 
-header{
-    display:flex;
-    justify-content: center;
-    max-width: 100%;
-}
+.logo { 
+    width: auto;
+    height: auto;
+    text-align:center;
+  }
+  
+.logo img {
+    display:inline-block;
+    }
+
 h1,h2, .welcometext {
     display:flex;
     justify-content: center;
@@ -36,9 +37,13 @@ footer div{
     display: flex;
     justify-content: center;
     margin: 20px;
+    padding: 5px;
 }
-@media only screen and (max-width: 768px) {
-    nav a {size: 100%; 
-    display:block;}
+footer div img {
+    max-width: 75%;
+}
+@media only screen and (max-width: 768px) 
+    {nav a {size: 75%; display:block; padding: 5px;}
     span {display:none;}
+    img {max-width: 100%;}
 }
